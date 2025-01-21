@@ -35,12 +35,14 @@ The project uses data from the [World Weather Repository](https://www.kaggle.com
 ## Methodology
 
 ### Step 1: Data Cleaning and Preprocessing
+[Implementation File](https://github.com/keiakihito/Assessment-Data-Science/blob/main/src/exploratory_data_analysis.ipynb)
 - **Data Summary**: Used `.describe()` to summarize the dataset.
 - **NaN and Duplicates Check**: Verified there are no missing or duplicate values.
 - **Standardization**: Standardized country names and reviewed unique values.
 
 ### Step 2: Exploratory Data Analysis (EDA)
-To uncover trends and validate hypotheses:
+[Implementation File](https://github.com/keiakihito/Assessment-Data-Science/blob/main/src/exploratory_data_analysis.ipynb)
+<br>To uncover trends and validate hypotheses:
 - **Correlation Analysis**: Explored relationships between key features:
     - `temperature_celsius`
     - `precip_mm`
@@ -65,6 +67,7 @@ To uncover trends and validate hypotheses:
     - Precipitation values are concentrated near 0–0.5mm, with a few outliers.
 
 ### Step 3: Building Forecasting Models
+[Implementation File](https://github.com/keiakihito/Assessment-Data-Science/blob/main/src/models_training.ipynb)
 - The model predicts temperature for a specific country. In this model training, we chose the United States of America.
 - The model predicts the `temperature_celsius`.
 
