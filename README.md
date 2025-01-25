@@ -1,6 +1,6 @@
 # Assessment-Data-Science
 
-This project is a technical interview submission for the PA Accelerator internship 2025. The PM Accelerator addresses their company mission **to break down financial barriers and achieve education fairness.**
+This project is a showcase of my Data Science and Machine Learning skill set.  
 
 ---
 
